@@ -1,0 +1,34 @@
+.formularioOne {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+h2 {
+  text-align: center;
+}
+.formularioOne input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 2px solid;
+  outline: none;
+}
+.formularioOne label {
+  display: flex;
+  flex-direction: column;
+}
+::placeholder {
+  text-align: center;
+  color: black;
+}
+button {
+  padding: 10px;
+}
+.errorTarget {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
